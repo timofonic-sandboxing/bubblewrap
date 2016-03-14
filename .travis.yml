@@ -1,0 +1,10 @@
+language: c
+
+notifications:
+  webhooks: http://escher.verbum.org:54856/travis
+  email: false
+
+branches:
+  only:
+    - auto
+
